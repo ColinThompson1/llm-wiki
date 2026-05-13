@@ -1,6 +1,6 @@
 # Examples from Real Wiki
 
-This directory contains real files from a knowledge base maintained with `karpathy-llm-wiki` since April 2026.
+This directory contains real files from a knowledge base maintained with `llm-wiki` since April 2026.
 
 The included example files still reflect the earlier single-project layout, including historical `raw/` references inside the sample content. The current skill generalizes that workflow to `sources/`, `wiki/projects/`, and `wiki/organization/`, but the article and log examples remain useful as format references.
 

@@ -1,16 +1,16 @@
 ---
-name: karpathy-llm-wiki
-description: "Use when building or maintaining a personal or multi-repo LLM-powered knowledge base. Triggers: ingesting sources into a wiki, querying wiki knowledge, linting wiki quality, 'add to wiki', 'what do I know about', or any mention of 'LLM wiki' or 'Karpathy wiki'."
+name: llm-wiki
+description: "Use when building or maintaining a personal or multi-repo LLM-powered knowledge base. Triggers: ingesting sources into a wiki, querying wiki knowledge, linting wiki quality, 'add to wiki', 'what do I know about', or any mention of 'LLM wiki' or 'wiki skill'."
 ---
 
-# Karpathy LLM Wiki
+# Multi-Repo LLM Wiki
 
 Build and maintain a knowledge base using LLMs. You manage immutable source material under `sources/` and compiled knowledge articles under `wiki/`. The wiki is organized into two scopes:
 
 - `projects/` for repo-specific knowledge
 - `organization/` for reusable or cross-repo knowledge
 
-Core ideas from Karpathy:
+Core ideas that inspired this workflow:
 - "The LLM writes and maintains the wiki; the human reads and asks questions."
 - "The wiki is a persistent, compounding artifact."
 
