@@ -1,7 +1,8 @@
 # {Title}
 
 > Sources: {Author1, YYYY-MM-DD; Author2, YYYY-MM-DD}
-> Raw: [{source1}](../../raw/{topic1}/{filename1}.md); [{source2}](../../raw/{topic2}/{filename2}.md)
+> Source Files: [{source1}](../../../sources/projects/{repo}/{filename1}.md); [{source2}](../../../sources/external/{filename2}.md)
+> Updated: {YYYY-MM-DD}
 
 ## Overview
 
@@ -16,5 +17,7 @@
 ## See Also
 
 {Cross-references to related wiki articles. Maintained during lint. Use relative links:
-- Same topic: [Other Article](other-article.md)
-- Different topic: [Other Article](../other-topic/other-article.md)}
+- Same directory: [Other Article](other-article.md)
+- Different project: [Other Article](../other-repo/other-article.md)
+- Organization category from a project article: [Retry Strategies](../../organization/patterns/retry-strategies.md)
+- Project evidence from an organization article: [Queue Worker](../../projects/repo-a/queue-worker.md)}

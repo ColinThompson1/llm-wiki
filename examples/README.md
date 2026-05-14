@@ -1,19 +1,21 @@
 # Examples from Real Wiki
 
-This directory contains real files from a knowledge base maintained with `karpathy-llm-wiki` since April 2026.
+This directory contains real files from a knowledge base maintained with `llm-wiki` since April 2026.
+
+The included example files still reflect the earlier single-project layout, including historical `raw/` references inside the sample content. The current skill generalizes that workflow to `sources/`, `wiki/projects/`, and `wiki/organization/`, but the article and log examples remain useful as format references.
 
 ## Files
 
 | File | What it shows |
 |------|---------------|
 | `claude-code-statusline-landscape.md` | Compiled wiki article with structured data (tables, citations, cross-references) |
-| `2026-03-19-claude-code-statusline-landscape.md` | Raw source material before compilation |
+| `2026-03-19-claude-code-statusline-landscape.md` | Source material before compilation |
 | `ai-coding-tools-index.md` | Topic index with one-line summaries |
 | `log-sample.md` | Sample entries from operation log |
 
-## Raw vs Compiled Comparison
+## Source vs Compiled Comparison
 
-**Raw source** (`2026-03-19-claude-code-statusline-landscape.md`):
+**Source file** (`2026-03-19-claude-code-statusline-landscape.md`):
 - Original research notes
 - Unstructured content
 - Metadata header (Source, Collected, Published dates)
